@@ -39,7 +39,7 @@ const DefaultPreview: FC<{ file: OdFileObject }> = ({ file }) => {
               <div className="py-2 text-xs font-medium uppercase opacity-80">{'Hashes'}</div>
               <table className="block w-full overflow-scroll whitespace-nowrap text-sm md:table">
                 <tbody>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       Quick XOR
                     </td>
@@ -47,7 +47,7 @@ const DefaultPreview: FC<{ file: OdFileObject }> = ({ file }) => {
                       {file.file.hashes?.quickXorHash ?? 'Unavailable'}
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       SHA1
                     </td>
@@ -55,7 +55,7 @@ const DefaultPreview: FC<{ file: OdFileObject }> = ({ file }) => {
                       {file.file.hashes?.sha1Hash ?? 'Unavailable'}
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       SHA256
                     </td>

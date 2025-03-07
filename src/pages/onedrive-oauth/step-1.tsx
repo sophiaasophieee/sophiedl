@@ -12,7 +12,7 @@ export default function OAuthStep1() {
   const router = useRouter()
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-white onethree">
       <Head>
         <title>{`OAuth Step 1 - ${siteConfig.title}`}</title>
       </Head>
@@ -21,7 +21,7 @@ export default function OAuthStep1() {
         <Navbar />
 
         <div className="mx-auto w-full max-w-5xl p-4">
-          <div className="rounded bg-white p-3 dark:bg-gray-900 dark:text-gray-100">
+          <div className="rounded bg-white p-3 onethree dark:text-gray-100">
             <div className="mx-auto w-52">
               <Image src="/images/fabulous-fireworks.png" width={912} height={912} alt="fabulous fireworks" priority />
             </div>
@@ -40,7 +40,7 @@ export default function OAuthStep1() {
             <div className="my-4 overflow-hidden">
               <table className="min-w-full table-auto">
                 <tbody>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       CLIENT_ID
                     </td>
@@ -48,7 +48,7 @@ export default function OAuthStep1() {
                       <code className="font-mono text-sm">{apiConfig.clientId}</code>
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       CLIENT_SECRET*
                     </td>
@@ -56,7 +56,7 @@ export default function OAuthStep1() {
                       <code className="font-mono text-sm">{apiConfig.obfuscatedClientSecret}</code>
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       REDIRECT_URI
                     </td>
@@ -64,7 +64,7 @@ export default function OAuthStep1() {
                       <code className="font-mono text-sm">{apiConfig.redirectUri}</code>
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       Auth API URL
                     </td>
@@ -72,7 +72,7 @@ export default function OAuthStep1() {
                       <code className="font-mono text-sm">{apiConfig.authApi}</code>
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       Drive API URL
                     </td>
@@ -80,7 +80,7 @@ export default function OAuthStep1() {
                       <code className="font-mono text-sm">{apiConfig.driveApi}</code>
                     </td>
                   </tr>
-                  <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
+                  <tr className="border-y bg-white dark:border-gray-700 onethree">
                     <td className="bg-gray-50 px-3 py-1 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-400">
                       API Scope
                     </td>

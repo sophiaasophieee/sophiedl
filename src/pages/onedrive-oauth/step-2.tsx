@@ -20,7 +20,7 @@ export default function OAuthStep2() {
   const oAuthUrl = generateAuthorisationUrl()
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-white onethree">
       <Head>
         <title>{`OAuth Step 2 - ${siteConfig.title}`}</title>
       </Head>
@@ -29,7 +29,7 @@ export default function OAuthStep2() {
         <Navbar />
 
         <div className="mx-auto w-full max-w-5xl p-4">
-          <div className="rounded bg-white p-3 dark:bg-gray-900 dark:text-gray-100">
+          <div className="rounded bg-white p-3 onethree dark:text-gray-100">
             <div className="mx-auto w-52">
               <Image
                 src="/images/fabulous-come-back-later.png"

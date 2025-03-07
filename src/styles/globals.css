@@ -28,3 +28,7 @@ pre[class*='language-'],
 code[class*='language-'] {
   @apply font-mono !important;
 }
+
+.onethree {
+  background-color: #131313;
+}
