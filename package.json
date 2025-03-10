@@ -94,5 +94,18 @@
       "next/core-web-vitals",
       "prettier"
     ]
-  }
+  },
+  "description": "<div align=\"center\">   <img src=\"./public/header.png\" alt=\"onedrive-cf-index-ng\" />   <h3><a href=\"https://pan.lyc8503.net\">onedrive-cf-index-ng</a></h3>   <p><em>OneDrive public directory listing forked from <a href=\"https://github.com/spencerwooo/onedrive-vercel-index\">onedrive-vercel-index</a>, powered by Cloudflare and Next.js</em></p>",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiaasophieee/sophiedl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophiaasophieee/sophiedl/issues"
+  },
+  "homepage": "https://github.com/sophiaasophieee/sophiedl#readme"
 }
